@@ -5,11 +5,12 @@ import os
 from distutils.core import setup
 
 setup(name='pidfile',
-      version='0.1.0',
+      version='0.1.1',
       description='A Pidfile Context Manager compatible with python-daemon\'s DaemonContext()',
       author="Brian Hatfield",
       author_email='bmhatfield@gmail.com',
       url='https://github.com/bmhatfield/python-pidfile.git',
+      license='MIT',
       py_modules=['pidfile'],
       classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -22,10 +23,6 @@ setup(name='pidfile',
         'Programming Language :: Python :: 3.1',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-      ],
-      license='MIT'
+        'Programming Language :: Python :: 3.4'
+      ]
      )
-
-
-
